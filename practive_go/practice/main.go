@@ -1,10 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
+		 Operations()
 
 	// =========================
 	// Learned:
@@ -41,9 +38,7 @@ func main() {
 	// // =========================
 
 	// fmt.Println("what is your name?")
-
 	// var name,name2 string
-
 	// '&' gives memory address of variables
 	// fmt.Scanln(&name,&name2)
 
@@ -65,12 +60,21 @@ func main() {
 	// fmt.Println("hello", name)
 
 ///////////////////////////////////////////////////////////using functions
-
 // ans :=add(2.2, 4.54)
 // fmt.Println(ans)
+
+// ans,k:=divide(10,0)
+// fmt.Println(ans , k)
 
 }
 
 // func add(a,b float32)(result float32){  // here the output format is written after the fucntion 
 // 	return a+b
+// }
+
+// func divide(a,b float32)(float32 , string){  // can be returned as (return type , error) or (return type , string/or anything)
+// 	if(b==0){
+// 		return 0 , "Not divisible by 0"
+// 	}
+// 	return a/b ,""
 // }

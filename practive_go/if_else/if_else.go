@@ -45,6 +45,4 @@ func main() {
 	// for index , value:= range num{
 	// 	fmt.Println(index,value)
 	// }
-
-
 }
